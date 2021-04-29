@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"); /* for heading */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto:wght@300&display=swap"); /* for content*/
+
+.home_card {
+  height: 13rem;
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  color: inherit;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  transition: 0.7s;
+  cursor: pointer;
+  padding: 15px 10px;
+  background-color: white;
+}
+.home_card:hover {
+  transform: translateY(-10px);
+  color: inherit;
+  text-decoration: none;
+}
+
+.home_card__top {
+  font-size: 0.7rem;
+  margin: 0.3rem 0.2rem 1rem 0.2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.home_card__title {
+  font-size: 1rem;
+  font-weight: 800;
+  margin: 0rem 0.2rem 20px 0.2rem;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 10px;
+  overflow: hidden;
+  word-break: break-all;
+  white-space: normal;
+  border-bottom: 2.5px solid rgba(0, 0, 0, 0.15);
+}
+.home_card__content {
+  font-size: 0.9rem;
+  width: 100%;
+  overflow: hidden;
+  word-break: break-all;
+  white-space: normal;
+  max-width: 100%;
+  font-family: "Roboto", sans-serif;
+  margin: 0rem 0.2rem 0.2rem 0.2rem;
+}
+
+@media only screen and (max-width: 402px) {
+  .home_card {
+    width: 9rem;
+  }
+}

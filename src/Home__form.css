@@ -1,0 +1,36 @@
+.homeForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0.4rem 0rem;
+  height: 10rem;
+}
+input {
+  width: 30rem;
+  margin: 0.5rem 1rem;
+  outline: none;
+  border-radius: 10rem;
+  padding: 0rem 0.3rem;
+  height: 2rem;
+  text-decoration: none;
+}
+.homeFormButton {
+  width: 14rem;
+  height: 1.8rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  cursor: pointer;
+  background-color: black;
+  opacity: 0.6;
+  color: white;
+  outline: none;
+}
+button:hover {
+  opacity: 1;
+}
+button,
+input {
+  overflow: visible;
+  margin: 4rem;
+}

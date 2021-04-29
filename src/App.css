@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+.header__contact {
+  background-color: rgb(19, 19, 63);
+}
+.footer_link{
+  text-decoration: none;
+  color: white;
+}
+.footer_link:hover{
+  text-decoration: none;
+  color: rgb(145, 142, 142);
+}
+.footer_foo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(243, 213, 158);
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.7rem;
+  font-weight: 800;
+}
+
+/* @media only screen and (max-width: 638px) {
+  .home__container6_middle {
+    display: none;
+    z-index: -12;
+   }
+   .home__container6{
+     display: flex;
+     justify-content: space-between;
+   }
+   .home__container6_left_title{
+     font-size: 1rem;
+   }
+   .home__container6_right_title{
+     font-size: 1rem;
+   }
+   footer{
+     padding: 0px 0px;
+   }
+} */

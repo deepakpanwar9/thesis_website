@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"); /* for heading */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto:wght@300&display=swap"); /* for content*/
+.order_process_card{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 25rem;
+    /* border: 2px solid black; */
+    padding: 1rem;
+    background: rgb(250, 219, 162);
+    margin: 1rem 0rem 1rem 0rem;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+    transition: .7s;
+}
+.order_process_card:hover{
+        transform: translateY(-10px);
+}
+.order_process_card_img{
+    width: 100%;
+    height: 70%;
+    margin-bottom: 1rem;
+}
+.order_process_card_title{
+    font-size: 1rem;
+    font-weight: 800;
+    margin: 0.5rem 0rem 1rem 0rem ;
+    font-family: 'Raleway', sans-serif;
+}
+.order_process_card_description{
+font-size: 0.8rem;
+font-family: 'Roboto', sans-serif;
+/* font-weight: 800; */
+}
+
+@media only screen and (max-width: 984px) {
+    .order_process_card{
+      width: 70%;
+      height: 40rem;
+    }
+   }

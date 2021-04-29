@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"); /* for heading */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto:wght@300&display=swap"); /* for content*/
+
+.stateContainer {
+  width: 100%;
+  height: 400px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.stateContainer p {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.my_blog_container {
+  background: rgb(252, 244, 232);
+}
+.blog_container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: -20rem 5rem 0rem 0rem;
+}
+.blog_container2_inner {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  height: 25rem;
+  /* border: 2px solid black; */
+  z-index: 9;
+  background-color: white;
+  padding: 1rem;
+}
+.blog_container2_inner_title {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: orange;
+  margin: 1rem 1rem 1rem 1rem;
+}
+.blog_container2_inner_content {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 0.5rem 1rem;
+}
+.blog_container2_inner > button {
+  margin-top: 1rem;
+  width: 80%;
+  margin-left: 1.4rem;
+}
+
+.my_blog_container3 {
+  display: flex;
+  margin: 1rem 0rem 3rem 0rem;
+  flex-direction: column;
+}
+.my_blog_container3_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.blog_container3_title {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: orange;
+  margin: 0rem 0rem 1rem 1.4rem;
+}
+@media only screen and (max-width: 838px) {
+  .my_blog_container3_cards {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 838px) {
+  .blog_container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -5rem 0rem 0rem 0rem;
+  }
+}

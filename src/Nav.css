@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap"); /* logo */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"); /* for heading */
+
+.navigation__bar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  /* background: transparent; */
+  background: white;
+  color: rgb(0, 0, 0);
+  z-index: 100;
+  /* background-color: rgb(121, 120, 71); */
+  /* opacity: 0.6; */
+  border-end-start-radius: 20%;
+  border-end-end-radius: 20%;
+}
+.company__logo {
+  height: 3rem;
+  font-size: 2rem;
+  font-family: "Berkshire Swash", cursive;
+  color: rgb(0, 0, 0);
+  letter-spacing: 10px;
+  margin: 0px;
+  padding: 0px;
+ 
+}
+.company__logo>img{
+  margin-top: -1.7rem ;
+  padding: 0px;
+  height: 6rem;
+  width: 11rem;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin-right: 2rem;
+}
+.nav-links a {
+  text-decoration: none;
+}
+.nav-links a:hover {
+  text-decoration: none;
+}
+.nav-links_name {
+  color: rgb(0, 0, 0);
+  margin-left: 3.5rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.nav-links_name:hover {
+  animation-name: Nav_Links;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes Nav_Links {
+  from {
+    color: rgb(0, 0, 0);
+  }
+  to {
+    color: rgb(255, 123, 0);
+  }
+}
+@media only screen and (max-width: 706px) {
+  .company__logo{
+    display: none;
+    z-index: -10;
+  }
+  .nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0rem 3rem 0rem -3rem;
+  }
+  .nav-links_name{
+    margin-left: 2rem;
+  }
+  .home__container2{
+    flex-direction: column-reverse;
+  }
+  .home__container2_photos{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 402px) {
+  .nav-links_name{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 454px) {
+  .nav-links_name{
+    font-size: 1rem;
+    margin-left: 2rem;
+  }
+}
+@media only screen and (max-width: 382px) {
+  .nav-links_name{
+    font-size: 1rem;
+    margin-left: 1.2rem;
+  }
+}

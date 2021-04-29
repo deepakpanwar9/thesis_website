@@ -1,0 +1,30 @@
+.headercontact {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(195, 194, 194);
+}
+
+.contact_phone {
+  display: flex;
+  margin: 0.1rem 1rem;
+}
+
+.contact_phone_button {
+  margin-right: 0.3rem;
+}
+.contact_phone_button:hover {
+  cursor: pointer;
+  color: rgb(248, 148, 130);
+}
+
+.contact_email {
+  display: flex;
+  margin: 0.1rem 1rem;
+}
+.contact_emai_button {
+  margin-right: 0.4rem;
+}
+.contact_emai_button:hover {
+  cursor: pointer;
+  color: rgb(248, 148, 130);
+}

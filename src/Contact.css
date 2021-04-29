@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"); /* for heading */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto:wght@300&display=swap"); /* for content*/
+
+.contact_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact_page_container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -4.3rem;
+}
+.text {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3rem;
+  margin-right: 0.6rem;
+  margin-left: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+.contact_page_container1_title {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  margin: -5rem 0rem 2rem 0rem;
+  color: orange;
+}
+.contact_page_container1_description {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  margin: 0rem 0rem 6rem 0rem;
+  font-weight: bold;
+}
+.contact_us_img {
+  width: 100%;
+  height: 20rem;
+  z-index: -1;
+  opacity: 1;
+  margin-bottom: -150px;
+  mask-image: linear-gradient(to bottom, rgba(1, 1, 1, 1), rgba(1, 1, 1, 0));
+}
+.contact_page_container2 {
+  width: 80%;
+  height: 30rem;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+}
+.contact_page_container2_left {
+  flex-flow: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.contact_page_container2_left_title {
+  margin-top: 1.3rem;
+  display: flex;
+}
+
+.contact_page_container2_right {
+  border: 2px solid black;
+  background-color: orange;
+  border: none;
+  color: rgb(0, 0, 0);
+  width: 50%;
+}
+.only_inputfields {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 1rem 0rem 2rem 0rem;
+}
+input {
+  width: 90%;
+}
+textarea {
+  width: 20rem;
+  height: 4rem;
+  outline: none;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+#full_name{
+  margin-bottom: 1.5rem;
+}
+.form__msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact_us_button {
+  width: 80%;
+  border-radius: 10px;
+  background-color: rgb(18, 58, 95);
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.send_icon {
+  margin-left: 1rem;
+}
+.contact_page_container2_right {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+}
+.container2__right_2 {
+  margin: 1rem 1rem;
+  display: flex;
+}
+.container2__right_1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.con_icon {
+  margin-right: 1.5rem;
+}
+
+.con_icon_fb_icon {
+  color: rgb(28, 0, 185);
+}
+.con_icon_wt_icon {
+  color: rgb(28, 0, 185);
+}
+.con_icon_ig_icon {
+  color: rgb(28, 0, 185);
+}
+.container2__right_3 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem 2rem;
+}
+@media only screen and (max-width: 976px) {
+ .contact_page_container2{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 50rem;
+   align-items: center;
+   width: 100%;
+   padding: 0px;
+   margin: 0px;
+ }
+ .contact_page_container2_left{
+   width: 60%;
+   margin-bottom: 5rem;
+ }
+ .contact_page_container2_right{
+   width: 60%;
+   margin-bottom: 5rem;
+ }
+}
+@media only screen and (max-width: 654px) {
+  .contact_page_container2_left{
+    width: 90%;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+  }
+  .contact_page_container2_right{
+    width: 90%;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+  }
+ }
+@media only screen and (max-width: 434px) {
+  .contact_page_container2_left{
+    width: 100%;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+  }
+  .contact_page_container2_right{
+    width: 100%;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+  }
+ }
+@media only screen and (max-width: 392px) {
+ input{
+   width: 11rem;
+ }
+ }

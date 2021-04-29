@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"); /* for heading */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto:wght@300&display=swap"); /* for content*/
+
+.about_values_card{
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    width: 40%;
+    margin: 0rem 0rem 1rem 3rem;
+    justify-content:space-between;
+    background: white;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+    transition: .7s;
+}
+.about_values_card:hover{
+    transform: translateY(-10px);
+  }
+.about_values_card__Title{
+    font-size: 1.5rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+}
+.about_values_card__content{
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+}
+.about_values_card__top > img{
+    height: 16rem;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1008px) {
+  .about_values_card{
+    height: 40rem;
+  }
+ }
+@media only screen and (max-width: 698px) {
+  .about_values_card{
+    height: 40rem;
+    width: 90%;
+  }
+ }
